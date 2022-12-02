@@ -1,0 +1,52 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1 {
+  font-size: 3rem;
+  color: whitesmoke;
+}
+hr {
+/* Makes the distance 20px */
+  margin: 20px auto;
+/* changes the color to that */
+  color: #F05F44;
+/* makes the border 4px solid orange */
+  border: 4px solid #F05F44;
+/* makes the width 65px */
+  max-width: 65px;
+/* maxes out the opacity */
+  opacity: 1;  
+}
+.btn {
+  /* we made the btn class have bigger text and have rounder edges */
+  font-weight: 700;
+  border-radius: 300px;
+  /* We made the text uppercase */
+  text-transform: uppercase;
+}
+/*adding on to the bootstrap button. Making the backgroun color $F05F44 and the border color the same.*/
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44;
+}
+/*When you hover over the button, the background color changes, the border color changes and the border widthchanges*/
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 4px;
+}
+/* using the class from earlier, btn-xl, we made the text box bigger by 1rem and 2rem. */
+.btn-xl {
+  padding: 1rem 2rem;
+} 
+.buffer {
+  height: 10rem;
+}
